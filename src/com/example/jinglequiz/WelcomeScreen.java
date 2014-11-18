@@ -1,5 +1,8 @@
 package com.example.jinglequiz;
 
+import sofia.graphics.RectangleShape;
+import sofia.graphics.ShapeView;
+
 import sofia.app.ShapeScreen;
 
 // -------------------------------------------------------------------------
@@ -19,7 +22,18 @@ public class WelcomeScreen extends ShapeScreen {
 	 */
 	@Override
 	public void initialize() {
-
+		addLogo();
 	}
 
+	// ----------------------------------------------------------
+	/**
+	 * Add Logo to the HomeScreen.
+	 */
+	private void addLogo() {
+		ShapeView shapeView = (ShapeView) this.findViewById(R.id.shapeView);
+		RectangleShape logoShape = new RectangleShape(0, 0, getWidth(),
+		    getHeight());
+		logoShape.setImage("ic_launcher");
+		shapeView.add(logoShape);
+	}
 }
