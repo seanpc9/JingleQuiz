@@ -40,14 +40,10 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_below="@+id/replay"
-      android:layout_marginLeft="49dp"
-      android:layout_marginTop="85dp"
-      android:layout_toRightOf="@+id/counter"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="125dp"
       android:ems="10"
       android:text="Jordan White"
-      android:textAppearance="?android:attr/textAppearanceSmall" >
-
-      <requestFocus />
-  </EditText>
+      android:textAppearance="?android:attr/textAppearanceSmall" />
   
 </RelativeLayout>
