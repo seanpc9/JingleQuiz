@@ -34,5 +34,20 @@
       android:layout_alignParentTop="true"
       android:background="@drawable/gamebuttons"
       android:text="replay" />
+
+  <EditText
+      android:id="@+id/test"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/replay"
+      android:layout_marginLeft="49dp"
+      android:layout_marginTop="85dp"
+      android:layout_toRightOf="@+id/counter"
+      android:ems="10"
+      android:text="Jordan White"
+      android:textAppearance="?android:attr/textAppearanceSmall" >
+
+      <requestFocus />
+  </EditText>
   
 </RelativeLayout>
