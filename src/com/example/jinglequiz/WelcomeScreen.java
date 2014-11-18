@@ -13,15 +13,15 @@ import sofia.app.ShapeScreen;
  * @author Divyansh Gupta (divyg)
  * @version Nov 17, 2014
  */
-
 public class WelcomeScreen extends ShapeScreen {
-    	// Fields
-    	private ShapeView shapeView;
-    	private Button easy;
-    	private Button medium;
-    	private Button hard;
-    	private Button start;
+	// Fields
+	private ShapeView shapeView;
+	private Button easy;
+	private Button medium;
+	private Button hard;
+	private Button start;
 
+	// we are on developer branch
 
 	// ----------------------------------------------------------
 	/**
