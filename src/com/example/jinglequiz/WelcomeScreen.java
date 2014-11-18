@@ -1,17 +1,22 @@
 package com.example.jinglequiz;
 
+import sofia.graphics.ShapeView;
+
 import sofia.app.ShapeScreen;
 
 // -------------------------------------------------------------------------
 /**
- * Write a one-sentence summary of your class here. Follow it with additional
- * details about its purpose, what abstraction it represents, and how to use it.
+ * The backend for the WelcomeScreen.
  *
  * @author Divyansh Gupta (divyg)
  * @version Nov 17, 2014
  */
 
 public class WelcomeScreen extends ShapeScreen {
+    	// Fields
+    	private ShapeView shapeView;
+    	// private Button
+
 
 	// ----------------------------------------------------------
 	/**
