@@ -1,5 +1,7 @@
 package com.example.jinglequiz;
 
+import android.widget.Button;
+
 import sofia.graphics.ShapeView;
 
 import sofia.app.ShapeScreen;
@@ -15,7 +17,10 @@ import sofia.app.ShapeScreen;
 public class WelcomeScreen extends ShapeScreen {
     	// Fields
     	private ShapeView shapeView;
-    	// private Button
+    	private Button easy;
+    	private Button medium;
+    	private Button hard;
+    	private Button start;
 
 
 	// ----------------------------------------------------------
