@@ -60,6 +60,6 @@ public class WelcomeScreen extends ShapeScreen {
      * Redirects to the game screen.
      */
     public void startClicked() {
-
+	this.presentScreen(GameScreen.class, 2);
     }
 }
